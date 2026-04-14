@@ -1,0 +1,23 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.app-wrapper {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+#assignment-iframe {
+  flex: 1; /* 佔據左側剩餘所有空間 */
+  height: 100%;
+  border: none;
+  background: #ffffff;
+}
+
+#sketch-container {
+  width: 400px; /* 固定右側選單寬度 */
+  height: 100%;
+}
